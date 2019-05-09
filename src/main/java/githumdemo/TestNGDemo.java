@@ -24,14 +24,10 @@ public class TestNGDemo
 		Num2 = myScan.nextInt();
 		System.out.println("---------------------------\n");
 		
-		System.out.println("Enter your second Number?\n");
-		Num2 = myScan.nextInt();
-	
-	}
+	}	
 	
 	
-	
-	@Test(priority = 1)
+	@Test		//(priority = 1)
 	public void Addition()
 	{
 		int c;
@@ -44,7 +40,7 @@ public class TestNGDemo
 	}
 	
 	
-	@Test(priority = 2)
+	@Test		//(priority = 2)
 	public void Subtraction()
 	{
 		int c;
@@ -56,6 +52,18 @@ public class TestNGDemo
 				
 	}
 	
+	
+	@Test		//(priority = 2)
+	public void Multiplication()
+	{
+		int c;
+		
+		c = Num1 * Num2;
+		
+		System.out.println("Product is " + c);
+		System.out.println("---------------------------\n");
+				
+	}
 	@AfterTest
 	public void Footer()
 	{
