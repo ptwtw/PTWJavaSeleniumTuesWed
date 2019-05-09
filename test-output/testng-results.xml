@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4418" started-at="2019-05-09T02:51:26Z" finished-at="2019-05-09T02:51:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4418" started-at="2019-05-09T02:51:26Z" finished-at="2019-05-09T02:51:30Z">
+      <class name="githumdemo.TestNGDemo">
+        <test-method status="PASS" signature="GetInput()[pri:0, instance:githumdemo.TestNGDemo@5d5eef3d]" name="GetInput" is-config="true" duration-ms="4399" started-at="2019-05-09T02:51:26Z" finished-at="2019-05-09T02:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetInput -->
+        <test-method status="PASS" signature="Addition()[pri:1, instance:githumdemo.TestNGDemo@5d5eef3d]" name="Addition" duration-ms="3" started-at="2019-05-09T02:51:30Z" finished-at="2019-05-09T02:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addition -->
+        <test-method status="PASS" signature="Subtraction()[pri:2, instance:githumdemo.TestNGDemo@5d5eef3d]" name="Subtraction" duration-ms="1" started-at="2019-05-09T02:51:30Z" finished-at="2019-05-09T02:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subtraction -->
+        <test-method status="PASS" signature="Footer()[pri:0, instance:githumdemo.TestNGDemo@5d5eef3d]" name="Footer" is-config="true" duration-ms="1" started-at="2019-05-09T02:51:30Z" finished-at="2019-05-09T02:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer -->
+      </class> <!-- githumdemo.TestNGDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
